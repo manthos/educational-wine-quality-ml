@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+myenv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Keep model files for deployment
+# *.pkl
+
+# Exclude redundant documentation
+DEPLOYMENT_GUIDE.md
+DOCKER_README.md
+DOCKER_SUMMARY.md
+QUICK_START.md
+README_API.md
+PROJECT_CHECKLIST.md
+READY_TO_PUSH.md
+
+# Exclude deployment scripts not needed for Render
+docker-compose.yml
+Makefile
+docker-deploy.sh
+start_api.sh
+
+# Exclude other data directories
+data/
+
+# Exclude unrelated datasets from midterm-datasets
+midterm-datasets/justetf.csv
+midterm-datasets/Untitled*
+
